@@ -1,5 +1,19 @@
 # setup-wizard-pop-os
 
+## Download Pop!_OS 22.04
+
+URL:
+
+```
+https://iso.pop-os.org/22.04/amd64/intel/11/pop-os_22.04_amd64_intel_11.iso
+```
+
+SHA256 Sum:
+
+```
+b60b55dcf5f7178a78f9c39e199892a01264c953772f5c076a3fb7a5659357c7
+```
+
 ## Install Docker
 
 ```bash
