@@ -38,6 +38,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 URL: https://www.gitkraken.com/download/linux-deb
 
+### Install Tabby
+
+URL: https://github.com/Eugeny/tabby/releases/download/v1.0.183/tabby-1.0.183-linux-x64.deb
+
 ### Install Visual Studio Code
 
 URL: https://code.visualstudio.com/Download
