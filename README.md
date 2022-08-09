@@ -48,6 +48,16 @@ URL: https://code.visualstudio.com/Download
 
 URL: https://discord.com/api/download?platform=linux&format=deb
 
+### Install Inkscape
+
+URL: https://inkscape.org/release/inkscape-1.2.1/gnulinux/ubuntu/ppa/dl/
+
+```bash
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt update
+sudo apt install inkscape
+```
+
 ### Install Spotify
 
 URL: https://www.spotify.com/jp/download/linux/
