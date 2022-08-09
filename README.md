@@ -34,6 +34,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 # END
 ```
 
+### Install GitKraken
+
+URL: https://www.gitkraken.com/download/linux-deb
+
 ### Install Visual Studio Code
 
 URL: https://code.visualstudio.com/Download
