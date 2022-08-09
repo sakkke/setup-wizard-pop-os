@@ -1,4 +1,4 @@
-# setup-wizard-pop-os
+# Setup Wizard for Pop!_OS
 
 ## Download Pop!_OS 22.04
 
