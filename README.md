@@ -36,6 +36,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 ## Common
 
+### Install Discord
+
+URL: https://discord.com/api/download?platform=linux&format=deb
+
 ### Install Spotify
 
 URL: https://www.spotify.com/jp/download/linux/
