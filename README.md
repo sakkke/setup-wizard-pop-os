@@ -1,6 +1,8 @@
 # Setup Wizard for Pop!_OS
 
-## Download Pop!_OS 22.04
+## Getting Started
+
+### Download Pop!_OS 22.04
 
 URL: https://iso.pop-os.org/22.04/amd64/intel/11/pop-os_22.04_amd64_intel_11.iso
 
@@ -10,9 +12,11 @@ SHA256 Sum:
 b60b55dcf5f7178a78f9c39e199892a01264c953772f5c076a3fb7a5659357c7
 ```
 
-## Development
+## Applications
 
-### Install Docker
+### Development
+
+#### Install Docker
 
 URL: https://docs.docker.com/engine/install/ubuntu/
 
@@ -34,25 +38,25 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 # END
 ```
 
-### Install GitKraken
+#### Install GitKraken
 
 URL: https://www.gitkraken.com/download/linux-deb
 
-### Install Tabby
+#### Install Tabby
 
 URL: https://github.com/Eugeny/tabby/releases/download/v1.0.183/tabby-1.0.183-linux-x64.deb
 
-### Install Visual Studio Code
+#### Install Visual Studio Code
 
 URL: https://code.visualstudio.com/Download
 
-## Common
+### Common
 
-### Install Discord
+#### Install Discord
 
 URL: https://discord.com/api/download?platform=linux&format=deb
 
-### Install Inkscape
+#### Install Inkscape
 
 URL: https://inkscape.org/release/inkscape-1.2.1/gnulinux/ubuntu/ppa/dl/
 
@@ -62,7 +66,7 @@ sudo apt update
 sudo apt install inkscape
 ```
 
-### Install Spotify
+#### Install Spotify
 
 URL: https://www.spotify.com/jp/download/linux/
 
