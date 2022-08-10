@@ -57,6 +57,18 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 #%END
 ```
 
+#### Install Firefox Nightly
+
+URL: https://support.mozilla.org/en-US/questions/924510
+
+```bash
+#%BEGIN install-firefox-nightly
+sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+sudo apt-get update
+sudo apt-get install firefox-trunk
+#%END
+```
+
 #### Install GitKraken
 
 URL: https://www.gitkraken.com/download/linux-deb
