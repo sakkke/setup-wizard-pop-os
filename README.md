@@ -50,6 +50,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 URL: https://www.gitkraken.com/download/linux-deb
 
+#### Install Node.js
+
+URL: https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
 #### Install Tabby
 
 URL: https://github.com/Eugeny/tabby/releases/download/v1.0.183/tabby-1.0.183-linux-x64.deb
