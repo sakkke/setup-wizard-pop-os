@@ -19,10 +19,10 @@ b60b55dcf5f7178a78f9c39e199892a01264c953772f5c076a3fb7a5659357c7
 #### Install Android Debug Bridge
 
 ```bash
-# BEGIN install-android-debug-bridge
+#%BEGIN install-android-debug-bridge
 sudo apt-get update
 sudo apt-get install -y adb
-# END
+#%END
 ```
 
 #### Install Bun CLI
@@ -30,9 +30,9 @@ sudo apt-get install -y adb
 URL: https://bun.sh/
 
 ```bash
-# BEGIN install-bun-cli
+#%BEGIN install-bun-cli
 curl https://bun.sh/install | bash
-# END
+#%END
 ```
 
 #### Install Docker
@@ -40,7 +40,7 @@ curl https://bun.sh/install | bash
 URL: https://docs.docker.com/engine/install/ubuntu/
 
 ```bash
-# BEGIN install-docker
+#%BEGIN install-docker
 sudo apt-get update
 sudo apt-get install \
     ca-certificates \
@@ -54,7 +54,7 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-# END
+#%END
 ```
 
 #### Install GitKraken
@@ -66,10 +66,10 @@ URL: https://www.gitkraken.com/download/linux-deb
 URL: https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
 
 ```bash
-# BEGIN install-nodejs
+#%BEGIN install-nodejs
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
-# END
+#%END
 ```
 
 #### Install Tabby
@@ -91,11 +91,11 @@ URL: https://discord.com/api/download?platform=linux&format=deb
 URL: https://inkscape.org/release/inkscape-1.2.1/gnulinux/ubuntu/ppa/dl/
 
 ```bash
-# BEGIN install-inkscape
+#%BEGIN install-inkscape
 sudo add-apt-repository ppa:inkscape.dev/stable
 sudo apt update
 sudo apt install inkscape
-# END
+#%END
 ```
 
 #### Install Spotify
@@ -103,9 +103,9 @@ sudo apt install inkscape
 URL: https://www.spotify.com/jp/download/linux/
 
 ```bash
-# BEGIN install-spotify
+#%BEGIN install-spotify
 curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get install spotify-client
-# END
+#%END
 ```
