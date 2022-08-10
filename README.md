@@ -30,7 +30,9 @@ sudo apt-get install -y adb
 URL: https://bun.sh/
 
 ```bash
+# BEGIN install-bun-cli
 curl https://bun.sh/install | bash
+# END
 ```
 
 #### Install Docker
@@ -64,8 +66,10 @@ URL: https://www.gitkraken.com/download/linux-deb
 URL: https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
 
 ```bash
+# BEGIN install-nodejs
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
+# END
 ```
 
 #### Install Tabby
@@ -87,9 +91,11 @@ URL: https://discord.com/api/download?platform=linux&format=deb
 URL: https://inkscape.org/release/inkscape-1.2.1/gnulinux/ubuntu/ppa/dl/
 
 ```bash
+# BEGIN install-inkscape
 sudo add-apt-repository ppa:inkscape.dev/stable
 sudo apt update
 sudo apt install inkscape
+# END
 ```
 
 #### Install Spotify
