@@ -16,6 +16,15 @@ b60b55dcf5f7178a78f9c39e199892a01264c953772f5c076a3fb7a5659357c7
 
 ### Development
 
+#### Install Android Debug Bridge
+
+```bash
+# BEGIN install-android-debug-bridge
+sudo apt-get update
+sudo apt-get install -y adb
+# END
+```
+
 #### Install Bun CLI
 
 URL: https://bun.sh/
