@@ -35,6 +35,10 @@ curl https://bun.sh/install | bash
 #%END
 ```
 
+#### Install Google Chrome
+
+URL: https://www.google.co.jp/chrome/thank-you.html?statcb=0&installdataindex=empty&defaultbrowser=0#
+
 #### Install Docker
 
 URL: https://docs.docker.com/engine/install/ubuntu/
