@@ -114,6 +114,10 @@ sudo apt install inkscape
 #%END
 ```
 
+#### Install Microsoft Edge
+
+URL: https://go.microsoft.com/fwlink?linkid=2149051
+
 #### Install Spotify
 
 URL: https://www.spotify.com/jp/download/linux/
